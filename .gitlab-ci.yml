@@ -1,0 +1,17 @@
+before_script:
+
+after_script:
+
+stages:
+  - build
+  - test
+  - deploy
+  
+job_build:
+  - true
+
+job_test:
+  - true
+
+job_deploy:
+  - true
