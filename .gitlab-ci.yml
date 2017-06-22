@@ -8,10 +8,16 @@ stages:
   - deploy
   
 job_build:
-  - true
+  stage: build
+  script:
+    - true
 
 job_test:
-  - true
+  stage: test
+  script:
+    - true
 
 job_deploy:
-  - true
+  stage: deploy
+  script:
+    - true
